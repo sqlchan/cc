@@ -1,0 +1,40 @@
+curl -s -X POST 'https://run.xcrawl.com/v1/scrape' \
+  -H 'Authorization: Bearer $XCRAWL_API_KEY'\
+  -H 'Content-Type: application/json' \
+  -d '{
+    "url": "https://example.com",
+    "output": {
+      "formats": ["markdown"]
+    }
+  }'
+
+  {
+  "scrape_id": "01KKE88ETDN4RE9J7EPC5HR89B",
+  "endpoint": "scrape",
+  "version": "dca0d4b3bff035e4",
+  "status": "completed",
+  "url": "https://example.com",
+  "data": {
+    "markdown": "# Example Domain\nThis domain is for use in documentation examples without needing permission. Avoid use in operations.\n[Learn more](https://iana.org/domains/example)",
+    "metadata": {
+      "content_type": "text/html",
+      "final_url": "https://example.com/",
+      "status_code": 200,
+      "title": "Example Domain"
+    },
+    "traffic_bytes": 1410,
+    "credits_used": 1
+  },
+  "started_at": "2026-03-11T10:49:39Z",
+  "ended_at": "2026-03-11T10:49:44Z",
+  "total_credits_used": 1
+}
+
+
+api:
+xc-t5wyO5va9I5UMZKNFrD0vADZCM0z2rlwcpVtO6MnvaKxgFZg
+
+爬取网页
+https://hermes-agent.nousresearch.com/docs/zh-Hans/getting-started/quickstart
+
+保存内容

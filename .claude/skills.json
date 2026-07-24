@@ -1,0 +1,9 @@
+{
+  "skills": [
+    {
+      "name": "scrape-and-translate",
+      "description": "Scrape a webpage using xcrawl API and translate content to Chinese",
+      "path": ".claude/skills/scrape-and-translate.md"
+    }
+  ]
+}
